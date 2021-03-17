@@ -1,0 +1,25 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "Landing page HW",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zordecmax/bootstraphw.git"
+  },
+  "author": "Maxim Grosul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zordecmax/bootstraphw/issues"
+  },
+  "homepage": "https://github.com/zordecmax/bootstraphw#readme"
+}
