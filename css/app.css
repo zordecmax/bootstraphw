@@ -1,3 +1,50 @@
 .fb {
     height: 30px;
 }
+
+.carousel-caption {
+    bottom: 50%;
+}
+
+#carouselExampleCaptions {
+    max-height: 300px;
+}
+
+#carouselExampleCaptions img {
+    object-fit: fill;
+}
+
+footer {
+    background-color: rebeccapurple;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+.btn-outline-primary {
+    color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+.bg-dark {
+    background-color: rebeccapurple!important;
+}
+
+header {
+    background-color: rebeccapurple!important;
+}
+
+.fab {
+    color: rebeccapurple;
+    font-size: 1.5rem;
+    padding-right: 15px;
+}
