@@ -132,8 +132,8 @@
             <div class="card mb-4 shadow-sm">
             
             <div class="card-body text-center">
-              <h1 class="card-title pricing-card-title">Personal</h1>
-              <h3 class="card-title pricing-card-title">49<sup>99</sup>$</h3>
+              <h1 class="card-title pricing-card-title pt-3">Personal</h1>
+              <h3 class="card-title pricing-card-title py-3">49<sup>99</sup>$</h3>
               
               <button type="button" class="w-100 btn btn-lg btn-outline-primary">Reserve</button>
             </div>
@@ -144,8 +144,8 @@
             <div class="card mb-4 shadow-sm">
             
             <div class="card-body text-center">
-              <h1 class="card-title pricing-card-title">Company</h1>
-              <h3 class="card-title pricing-card-title">199<sup>99</sup>$</h3>
+              <h1 class="card-title pricing-card-title pt-3">Company</h1>
+              <h3 class="card-title pricing-card-title py-3">199<sup>99</sup>$</h3>
               
               <button type="button" class="w-100 btn btn-lg btn-outline-primary">Reserve</button>
             </div>
@@ -156,10 +156,11 @@
             <div class="card mb-4 shadow-sm">
             
             <div class="card-body text-center">
-              <h1 class="card-title pricing-card-title">Sponsor</h1>
-              <h3 class="card-title pricing-card-title">999<sup>99</sup>$</h3>
+              <h1 class="card-title pricing-card-title pt-3">Sponsor</h1>
+              <h3 class="card-title pricing-card-title py-3">999<sup>99</sup>$</h3>
               
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Reserve</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal"
+               data-bs-target="#staticBackdrop">Reserve</button>
             </div>
           </div>
           </div>
@@ -211,11 +212,28 @@
         </div>
       </div>
     </section>
-     
+     <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
 </main>
 <footer>
-  <div class="container py-3">
-    <p>Copyright Maxim</p>
+  <div class="container py-3 text-center">
+    <p>Copyright 2021 Maxim</p>
   </div>
 </footer>
 <script src="node_modules/jquery/dist/jquery.slim.js"></script>
